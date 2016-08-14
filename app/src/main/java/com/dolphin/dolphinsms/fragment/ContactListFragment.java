@@ -12,8 +12,6 @@ import android.view.ViewGroup;
 
 import com.dolphin.dolphinsms.R;
 import com.dolphin.dolphinsms.domain.Contact;
-import com.dolphin.dolphinsms.fragment.dummy.DummyContent;
-import com.dolphin.dolphinsms.fragment.dummy.DummyContent.DummyItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +61,6 @@ public class ContactListFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_contact_list, container, false);
 
-        // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
             RecyclerView recyclerView = (RecyclerView) view;

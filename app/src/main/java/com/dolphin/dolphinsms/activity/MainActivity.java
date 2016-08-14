@@ -1,12 +1,11 @@
 package com.dolphin.dolphinsms.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.dolphin.dolphinsms.R;
 import com.dolphin.dolphinsms.domain.Contact;
 import com.dolphin.dolphinsms.fragment.ContactListFragment;
-import com.dolphin.dolphinsms.fragment.dummy.DummyContent;
 
 public class MainActivity extends AppCompatActivity implements ContactListFragment.OnListFragmentInteractionListener{
 
