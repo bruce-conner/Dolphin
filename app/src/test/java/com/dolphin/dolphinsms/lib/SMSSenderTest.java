@@ -32,7 +32,7 @@ public class SMSSenderTest {
         String expectedPhoneNumber = "3307141437";
         String expectedMessage = "Yo Dawg";
 
-        Contact contact = new Contact(expectedPhoneNumber);
+        Contact contact = new Contact(expectedPhoneNumber, "Arbitrary Name");
 
         smsSender.sendSMS(contact, expectedMessage);
 

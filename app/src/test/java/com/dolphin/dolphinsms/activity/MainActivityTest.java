@@ -1,7 +1,6 @@
 package com.dolphin.dolphinsms.activity;
 
 import com.dolphin.dolphinsms.BuildConfig;
-import com.dolphin.dolphinsms.activity.MainActivity;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
